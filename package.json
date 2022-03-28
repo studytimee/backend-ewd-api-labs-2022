@@ -4,6 +4,7 @@
   "description": "backend ewd labs 2022",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,9 @@
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "dotenv": "^16.0.0"
   }
 }
